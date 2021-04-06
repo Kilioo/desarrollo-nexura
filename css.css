@@ -1,0 +1,254 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-repeat: no-repeat;
+}
+.paco {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.div_contenedor {
+    height: 100vh;
+}
+
+.div_centrado {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.div_centrado2 {
+    position: relative;
+    top: 20%;
+    right: 10%;
+    margin-top: -100px;
+    margin-right: -100px;
+}
+.content {
+    border: 1px dashed gray;
+ padding: .5em;
+ 
+ white-space: pre-wrap;
+ height: 5em;
+ overflow-y: scroll; /* se habilita el scroll vertical */
+}
+
+.content::-webkit-scrollbar { 
+ /* solo oculta su visualizacion */
+ display: none;
+}
+
+.div1 {
+    float: left;
+}
+
+.div2 {
+    float: right;
+}
+table {
+  table-layout: fixed;
+}
+.miTablaPersonalizada tr {
+  width: 130px;
+  overflow: auto;
+  border: 1px solid;
+}
+.main-head {
+  height: 150px;
+  background: #fff;
+}
+
+.sidenav {
+  height: 100%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav2 {
+  height: 100%;
+  background-image: url("Imagenes/Fondo.jpg");
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main {
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-form {
+    margin-top: 10%;
+  }
+
+  .register-form {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-left: 65%;
+  }
+  .main2 {
+    margin-left: 40%;
+  }
+  .main3 {
+    margin-left: 60%;
+  }
+
+  .sidenav {
+    width: 65%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  .sidenav2 {
+    width: 100%;
+    position: fixed;
+  }
+
+  .login-form {
+    margin-top: 20%;
+  }
+  .login-form2 {
+    margin-top: 10%;
+  }
+  .login-form3 {
+    margin-top: 4%;
+  }
+  .login-form4 {
+    margin-top: 5%;
+  }
+  .login-form5 {
+    margin-top: 3%;
+  }
+  .login-form6 {
+    margin-top: 2%;
+  }
+  .login-form7 {
+    margin-top: 15%;
+  }
+  .login-form8 {
+    margin-top: 0%;
+  }
+  .register-form {
+    margin-top: 10%;
+  }
+}
+
+.login-main-text {
+  margin-top: 5%;
+  padding: 20px;
+  color: #fff;
+}
+
+.login-main-text h2 {
+  font-weight: 300;
+}
+
+.btn-black {
+  background-color: #000 !important;
+  color: #fff;
+}
+.button {
+  background-color: #13afdf;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 16px 24px;
+  text-align: center;
+  text-transform: uppercase;
+  width: auto;
+}
+.button:hover {
+  background-color: #fb7e29;
+  color: #fff;
+}
+.hyphenation {
+  word-break: break-all;
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.caja {
+  margin: 20px auto 40px auto;
+  border: 1px solid #d9d9d9;
+  height: 30px;
+  overflow: hidden;
+  width: auto;
+  position: relative;
+}
+.caja2 {
+  position: relative;
+  display: inline-block;
+}
+.texto1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: Georgia, "Times";
+  font-size: 22px;
+}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+a {
+  color: #ff0000;
+}
+
+#l1,
+#l2 {
+  float: left;
+}
+
+.social-icons li {
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+#l1 li {
+  display: list-item;
+}
+
+#l2 li {
+  display: inline;
+}
+
+#l2 {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+div.tooltip {
+  background: #ff0000;
+  padding: 0.5em;
+  color: white;
+  font: courier;
+  float: left;
+  position: absolute;
+  top: 150px;
+  left: 220px;
+}
+div.tooltip:before {
+  position: absolute;
+  bottom: 34px;
+  content: "";
+  border-bottom: 10px solid #ff0000;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}

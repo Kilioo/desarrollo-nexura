@@ -1,0 +1,3 @@
+crear base de datos en phpmyadmin ->prueba-nexura
+importar el archivo ->prueba-nexura.sql
+correr el index
